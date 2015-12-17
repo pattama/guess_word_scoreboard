@@ -56,6 +56,12 @@
         $scope.addTeam2Point = function addTeam2Point() {
           $scope.team2Point += _.parseInt($scope.point);
         };
+        $scope.decreaseTeam1Point = function decreaseTeam1Point (){
+          $scope.team1Point -= 1;
+        };
+        $scope.decreaseTeam2Point = function decreaseTeam2Point (){
+          $scope.team2Point -= 1;
+        };
         $('.pull-down').each(function() {
           $(this).css('margin-top', $(this).parent().height()-$(this).height())
         });
