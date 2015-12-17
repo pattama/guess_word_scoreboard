@@ -17,9 +17,11 @@
     .controller('ScoreboardController', [
       '$scope', '$http', '$sailsSocket',
       'MessageService', 'BackendConfig',
+      '_',
       function(
         $scope, $http, $sailsSocket,
-        MessageService, BackendConfig
+        MessageService, BackendConfig,
+        _
       ) {
         // Initialize used scope variables
 
