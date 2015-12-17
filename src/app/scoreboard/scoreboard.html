@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <div class="row">Team 1</div>
+      <div class="row">{{team1Point}}</div>
+    </div>
+    <div class="col-sm-4 text-center" data-ng-click="reset()">Play day#2015</div>
+    <div class="col-sm-4 text-center">
+      <div class="row">Team 2</div>
+      <div class="row">{{team2Point}}</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <div>{{guessWord}}</div>
+    </div>
+  </div>
+  <div class="row pull-down">
+    <div class="col-sm-4 text-center">
+      <button class="btn btn-success"
+              data-ng-click="addTeam1Point()"
+        >add point
+      </button>
+    </div>
+    <div class="col-sm-4 text-center">
+      <button class="btn btn-primary"
+              data-ng-click="randomGuessWord()"
+        >random
+      </button>
+    </div>
+    <div class="col-sm-4 text-center">
+      <button class="btn btn-success"
+              data-ng-click="addTeam2Point()"
+        >add point
+      </button>
+    </div>
+  </div>
+</div>
