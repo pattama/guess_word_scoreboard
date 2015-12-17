@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "gulp watch",
-    "test": "gulp test",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "test": "gulp test"
   },
   "keywords": [
     "slush, angular, slush-angular"
