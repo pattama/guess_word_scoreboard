@@ -9,7 +9,7 @@
   'use strict';
 
   // Define frontend.examples.messages angular module
-  angular.module('frontend.scoreboard', []);
+  angular.module('frontend.scoreboard', ['cfp.hotkeys']);
 
   // Module configuration
   angular.module('frontend.scoreboard')
